@@ -1,0 +1,20 @@
+.Question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: whitesmoke;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 10px;
+}

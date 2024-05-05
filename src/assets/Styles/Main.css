@@ -1,0 +1,41 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  width: 50%;
+}
+
+.redtext {
+  background-color: red;
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.blacktext {
+  color: rgb(17, 16, 16);
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+}
+
+.desctext {
+  color: rgb(17, 16, 16);
+  overflow-wrap: normal;
+  text-align: center;
+}
+.boldline
+{   color: rgb(17, 16, 16);
+    font-weight: bolder;
+     overflow-wrap: normal;
+     text-align: center;
+}
+
+@media (min-width:760px) {
+    
+    .Main{
+        width: 70%;
+    }
+}

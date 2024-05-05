@@ -1,0 +1,21 @@
+.reg{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 80px;
+    height: fit-content;
+    width:auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.blacktitle{
+    font-size: 40px;
+    font-weight: 800;
+}
+.blacktitle span {
+    font-size: 40px;
+    font-weight: 800;
+    background-color: red;
+}
